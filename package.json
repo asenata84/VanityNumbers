@@ -1,0 +1,25 @@
+{
+  "name": "voice_foundry",
+  "version": "0.1.0",
+  "bin": {
+    "voice_foundry": "bin/voice_foundry.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "an-array-of-english-words": "^2.0.0",
+    "aws-sdk": "^2.1090.0"
+  }
+}
