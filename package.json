@@ -16,10 +16,10 @@
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
     "ts-node": "^9.0.0",
-    "typescript": "~3.9.7"
+    "typescript": "~3.9.7",
+    "an-array-of-english-words": "^2.0.0"
   },
   "dependencies": {
-    "an-array-of-english-words": "^2.0.0",
     "aws-sdk": "^2.1090.0"
   }
 }
